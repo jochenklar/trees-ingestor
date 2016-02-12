@@ -7,7 +7,7 @@ import sys
 
 from settings import SCHEMA
 
-parser = argparse.ArgumentParser(description='Generates the INGEST statements')
+parser = argparse.ArgumentParser(description='Generates the INGEST statements.')
 parser.add_argument('file', action='store', help='the geojson file with the data')
 parser.add_argument('type_id', action='store', help='the type_id to be stored in the database')
 args = parser.parse_args()
