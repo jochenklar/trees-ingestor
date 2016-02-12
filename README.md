@@ -19,7 +19,6 @@ createdb trees
 Step 3: generate the CREATE TABLE script and create the table.
 
 ```
-cd trees-ingestor/postgres
 postgres/generate-create-table-stmt.py
 psql trees < create-trees.sql
 ```
